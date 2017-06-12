@@ -1,7 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Security.Cryptography;
+using Karinator.Enums;
 
-namespace Karinator
+namespace Karinator.API
 {
     public static class AlgorithmsManager
     {

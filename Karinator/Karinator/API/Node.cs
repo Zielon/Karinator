@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 
-namespace Karinator
+namespace Karinator.API
 {
     public class Node : INotifyPropertyChanged
     {

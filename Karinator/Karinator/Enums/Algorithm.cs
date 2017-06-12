@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Karinator
+namespace Karinator.Enums
 {
     [Flags]
     public enum Algorithm

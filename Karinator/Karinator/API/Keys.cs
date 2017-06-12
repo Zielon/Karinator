@@ -1,6 +1,7 @@
 ﻿using System;
+using Karinator.Helpers;
 
-namespace Karinator
+namespace Karinator.API
 {
     public class Keys
     {

@@ -43,5 +43,6 @@
                VerticalAlignment="Top" FontFamily="Consolas" />
         <Label x:Name="label1" Content="Made by Mr Z" HorizontalAlignment="Left" Margin="484,286,0,0"
                VerticalAlignment="Top" Background="{DynamicResource {x:Static SystemColors.WindowBrushKey}}" />
+        <ComboBox x:Name="algorithmType" HorizontalAlignment="Left" Margin="435,62,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="algorithmType_SelectionChanged"/>
     </Grid>
 </Window>

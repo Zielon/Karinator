@@ -4,8 +4,10 @@ using System.IO;
 using System.Security.Cryptography;
 using System.Threading.Tasks;
 using System.Windows;
+using Karinator.Enums;
+using Karinator.Helpers;
 
-namespace Karinator
+namespace Karinator.API
 {
     public class Transformation
     {
