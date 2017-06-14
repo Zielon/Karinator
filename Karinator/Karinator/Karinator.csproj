@@ -76,14 +76,15 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Compile Include="Enums\Algorithm.cs" />
-    <Compile Include="API\AlgorithmsManager.cs" />
+    <Compile Include="API\Asymmetric\Karinathor.cs" />
+    <Compile Include="API\Symmetric\Enums\Algorithm.cs" />
+    <Compile Include="API\Symmetric\SymmetricAlgorithmsManager.cs" />
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="API\Keys.cs" />
-    <Compile Include="API\Transformation.cs" />
+    <Compile Include="API\Symmetric\Keys.cs" />
+    <Compile Include="API\Symmetric\SymmetricTransformation.cs" />
     <Compile Include="Helpers\ExtenstionMethods.cs" />
     <Compile Include="Helpers\Helpers.cs" />
     <Compile Include="MainWindow.xaml.cs">

@@ -1,14 +1,14 @@
 ﻿using System.Collections.Generic;
 using System.Security.Cryptography;
-using Karinator.Enums;
+using Karinator.API.Symmetric.Enums;
 
-namespace Karinator.API
+namespace Karinator.API.Symmetric
 {
-    public static class AlgorithmsManager
+    public static class SymmetricAlgorithmsManager
     {
         public static readonly Dictionary<Algorithm, SymmetricAlgorithm> Algorithms = new Dictionary<Algorithm, SymmetricAlgorithm>();
 
-        static AlgorithmsManager()
+        static SymmetricAlgorithmsManager()
         {
             Algorithms[Algorithm.Aes] = Aes.Create();
             Algorithms[Algorithm.DES] = DES.Create();

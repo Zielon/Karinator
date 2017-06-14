@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Karinator.Enums
+namespace Karinator.API.Symmetric.Enums
 {
     [Flags]
     public enum Algorithm

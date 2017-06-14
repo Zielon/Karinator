@@ -1,7 +1,7 @@
 ﻿using System;
 using Karinator.Helpers;
 
-namespace Karinator.API
+namespace Karinator.API.Symmetric
 {
     public class Keys
     {

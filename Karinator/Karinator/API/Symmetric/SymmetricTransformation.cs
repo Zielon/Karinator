@@ -4,19 +4,19 @@ using System.IO;
 using System.Security.Cryptography;
 using System.Threading.Tasks;
 using System.Windows;
-using Karinator.Enums;
+using Karinator.API.Symmetric.Enums;
 using Karinator.Helpers;
 
-namespace Karinator.API
+namespace Karinator.API.Symmetric
 {
-    public class Transformation
+    public class SymmetricTransformation
     {
         private SymmetricAlgorithm _algorithm;
         private Func<byte[], byte[], ICryptoTransform> _transform;
 
         public List<Task> Transform(List<Node> nodes, CryptoStreamMode mode, Algorithm algorithm)
         {
-            _algorithm = AlgorithmsManager.Algorithms[algorithm];
+            _algorithm = SymmetricAlgorithmsManager.Algorithms[algorithm];
 
             var tasks = new List<Task>();
             Func<string, Node, Task> fun;
