@@ -1,5 +1,5 @@
 # Karinator
-Simple program for encrypting and decrypting files. *C#* and [*WPF*]
+A simple program for encrypting and decrypting. *C#* and [*WPF*]
 
 Used algorithms:
 - Aes
